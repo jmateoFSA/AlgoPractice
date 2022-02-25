@@ -26,7 +26,7 @@ var romanToInt = function(s) {
       romanInt += romanObj[s[i] + s[i+1]]
       i++
     } else {
-          romanInt += romanObj[s[i]]
+      romanInt += romanObj[s[i]]
     }
   }
   return romanInt;
