@@ -1,9 +1,4 @@
-/**
- * @param {string} s
- * @return {number}
- */
-
-var romanToInt = function(s) {
+const romanToInt = function(s) {
   let romanInt = 0;
   const romanObj = {
     I: 1,
@@ -32,4 +27,4 @@ var romanToInt = function(s) {
   return romanInt;
 };
 
-module.exports = romanToInt
+module.exports = romanToInt;

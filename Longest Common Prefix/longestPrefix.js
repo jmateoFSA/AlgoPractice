@@ -1,9 +1,4 @@
-/**
- * @param {string[]} strs
- * @return {string}
- */
-
-var longestCommonPrefix = function(strs) {
+const longestCommonPrefix = function(strs) {
   let prefix = "";
   for (let i = 0; i < strs[0].length; i++) {
     const letter = strs[0][i]
@@ -15,4 +10,4 @@ var longestCommonPrefix = function(strs) {
   return prefix;
 };
 
-module.exports = longestCommonPrefix
+module.exports = longestCommonPrefix;
