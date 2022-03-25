@@ -7,3 +7,5 @@ const removeElement = function(nums, val) {
   }
   return nums.length;
 }
+
+module.exports = removeElement;
